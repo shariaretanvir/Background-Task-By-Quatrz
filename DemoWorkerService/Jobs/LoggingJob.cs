@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DemoWorkerService.Jobs
 {
-    public class LoggingJob : IJob
+    public class LoggingJob : IJob 
     {
         private readonly ILogger<LoggingJob> logger;
 
